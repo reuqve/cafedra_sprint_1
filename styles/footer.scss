@@ -1,0 +1,28 @@
+.footer {
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: $mainColor;
+    color: $white;
+
+    &__left-footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    &__left-footer a {
+        margin-left: 15px;
+    }
+
+    &__right-footer, &__left-footer {
+        margin-right: 55px;
+        margin-left: 55px;
+    }
+
+}
+.footer .footer__copyright {
+    color: $gray;
+}

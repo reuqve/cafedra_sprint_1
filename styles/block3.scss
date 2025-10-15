@@ -1,0 +1,36 @@
+/* block-3 */
+
+.block-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,  minmax(420px, 1fr));
+    justify-items: center;
+    &__info {
+        display: flex;
+        flex-direction: column;
+        
+        &__button {
+            width: 245px;
+            height: 53px;
+            background-color: $mainColor;
+            border: none;
+            border-radius: 20px;
+            color: $white;
+            font-size: 18px;
+            margin-top: auto;
+        }
+    }
+}
+
+/* colors */
+.blue-text {
+    color: $mainColor;
+}
+.gray-text {
+    color: $gray;
+}
+.gray__text {
+    color: $gray;
+}
+.blue__text {
+    color: $blue;
+}

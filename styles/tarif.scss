@@ -1,0 +1,36 @@
+/* tarifs */
+
+.tarifs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,  minmax(300px, 1fr));
+}
+.tarif {
+    &__header-info {
+        font-size: 25px;
+    }
+    &__info-tarif {
+        &__info-tarif p {
+            color: $gray;
+        }
+        &__info-in-tarif {
+            display: flex;
+            max-width: 300px;
+        }
+        &__info-in-tarif img {
+            width: 50px;
+            height: 50px;
+        }
+            
+        .info-tarif-btn {
+            font-size: 20px;
+            color: $blue;
+            border-radius: 20px;
+            border: none;
+            font-size: 15px;
+            font-weight: 500;
+            text-align: center;
+            width: 300px;
+            height: 50px;
+        }
+    }
+}

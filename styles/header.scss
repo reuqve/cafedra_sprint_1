@@ -1,0 +1,33 @@
+/* HEADER STYLES */
+.header-nav {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    padding: 10px 20px;
+        
+    &__list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+    }
+    
+    &__element{
+        display: inline-block;
+        margin-left: 50px;
+        margin-right: 20px;
+    }
+    
+    &__button {
+        width: 220px;
+        height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        text-decoration: none;
+        background-color: $mainColor;
+        color: $white;
+    }
+}

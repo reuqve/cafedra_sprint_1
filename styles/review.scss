@@ -1,0 +1,18 @@
+.block-4__review {
+    max-width: 600px;
+    &__head-review {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__head-review img {
+        border-radius: 50%;
+    }
+
+    &__review p {
+        color: $gray;
+    }    
+}
+
+
+

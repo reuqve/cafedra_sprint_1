@@ -1,0 +1,28 @@
+@import url('variables.css');
+@import url('fonts.css');
+@import url('header.css');
+@import url('block1.css');
+@import url('block2.css');
+@import url('block3.css');
+@import url('tarif.css');
+@import url('review.css');
+@import url('faq.css');
+@import url('block7.css');
+@import url('email_form.css');
+@import url('footer.css');
+@import url('adaptive.css');
+@import url('burger_menu.css');
+
+body {
+    font-family: 'Visuelt Pro';
+    font-weight: normal;
+    font-style: normal;
+}
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.normal-text {
+    font-size: 25px;
+}

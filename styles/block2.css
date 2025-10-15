@@ -1,0 +1,42 @@
+/* BLOCK 2 */
+.block-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  margin-top: 20px;
+  margin-bottom: 40px;
+  gap: 16px;
+}
+.block-2 .info-1, .block-2 .info-2, .block-2 .info-3 {
+  width: 420px;
+}
+.block-2 .inline-content {
+  display: flex;
+  align-items: center;
+}
+.block-2__info-1 {
+  width: 420px;
+}
+.block-2 h3 {
+  font-size: 25px;
+}
+.block-2-h1 {
+  font-size: 36px;
+}
+.block-2__inline-content {
+  display: flex;
+  align-items: center;
+}
+.block-2__inline-content img {
+  margin-right: 15px;
+}
+.block-2__header {
+  font-size: 24px;
+  font-weight: 500;
+  color: black;
+}
+.block-2__text {
+  color: gray;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 185%;
+}/*# sourceMappingURL=block2.css.map */
