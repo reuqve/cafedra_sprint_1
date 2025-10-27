@@ -19,10 +19,12 @@ body {
     font-style: normal;
 }
 .container {
-    max-width: 90%;
+    // max-width: 90%;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
 .normal-text {
-    font-size: 25px;
+    font-size: 36px;
+    font-weight: 500;
 }

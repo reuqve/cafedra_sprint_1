@@ -32,7 +32,6 @@ header .container {
   cursor: pointer;
 }
 .header-nav .header-nav__button {
-  background-color: #007bff;
   color: white;
   padding: 5px 5px;
   border-radius: 40px;

@@ -1,16 +1,27 @@
-/* block-4 */
+/* block-3 */
 .block-3 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
   justify-items: center;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 80px;
 }
-
-.tarifs {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+.block-3__info {
+  display: flex;
+  flex-direction: column;
+  width: 480px;
+  margin-top: 180px;
 }
-
-.block-3__button {
+.block-3__text {
+  font-size: 36px;
+  font-weight: 500;
+  margin-top: 80px;
+}
+.block-3 img {
+  margin-top: 40px;
+}
+.block-3__button button {
   width: 245px;
   height: 53px;
   background-color: #4754EB;
@@ -18,17 +29,35 @@
   border-radius: 20px;
   color: white;
   font-size: 18px;
+  margin-top: 70px;
+}
+.block-3::before {
+  background: linear-gradient(to bottom left, #8633B0, white);
+  content: "";
+  position: absolute;
+  width: 750px;
+  height: 160px;
+  right: 0;
+  aspect-ratio: 1;
+  border-radius: 25%;
+  z-index: -1;
+  filter: blur(80px);
+}
+.block-3::after {
+  background: linear-gradient(to bottom left, red, white);
+  content: "";
+  position: absolute;
+  width: 760px;
+  height: 200px;
+  left: -320px;
+  bottom: 0;
+  aspect-ratio: 1;
+  border-radius: 25%;
+  z-index: -1;
+  filter: blur(190px);
 }
 
-.block-3__info {
-  display: flex;
-  flex-direction: column;
-}
-
-.block-3__button {
-  margin-top: auto;
-}
-
+/* colors */
 .blue-text {
   color: #4754EB;
 }

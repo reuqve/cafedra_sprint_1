@@ -1,6 +1,7 @@
 /* BLOCK 2 */
 .block-2 {
   display: grid;
+  padding: 40px;
   grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
   margin-top: 20px;
   margin-bottom: 40px;

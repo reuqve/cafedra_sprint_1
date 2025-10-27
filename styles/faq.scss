@@ -1,18 +1,58 @@
 /* faq */
 
 .faq {
+    overflow: hidden;
+    position: relative;
+    min-height: 666px;
+    padding: 40px;
+    &__header-text {
+        font-size: 36px;
+        font-weight: 500;
+        margin-top: 80px;
+    }
     &__question {
         cursor: pointer;
+        max-width: 1300px;
+        margin: 16px auto;
+    }
+    &::after {
+        background: linear-gradient(to bottom left, #8633B0, #4754EB);
+        background-blend-mode: overlay;
+        content: "";
+        position: absolute;
+        width: 575px;
+        height: 130px;
+        // left: -320px;
+        left: -50px;
+        bottom: 0;
+        aspect-ratio: 1;
+        border-radius: 25%;
+        z-index: -1;
+        filter: blur(110px);
+    }
+    &::before {
+        background: linear-gradient(to bottom left, #EB478B, #8633B0);
+        background-blend-mode: overlay;
+        content: "";
+        position: absolute;
+        width: 350px;
+        height: 160px;
+        right: -50px;
+        aspect-ratio: 1;
+        border-radius: 25%;
+        z-index: -1;
+        filter: blur(150px);
     }
 }
 details {
-    background: $white;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
-    color: $black;
+    background: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    border: white;
+    color: black;
     font-size: 20px;
     padding: 30px;
     border-radius: 15px;
-    margin-top: 40px;
+    margin-top: 16px;
 }
 
 summary {
